@@ -75,7 +75,7 @@ def main():
     batch_size = 4
     train_data_file = 'train_mini.pt'
     test_data_file = 'train_mini.pt'
-    logfile = 'log.txt'
+    logfile = 'log/naive_lstm_mini.log'
     device = 0
 
     fp = open(logfile, 'w')
